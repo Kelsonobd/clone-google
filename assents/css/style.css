@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 10px 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+   
+}
+header{
+    height: 200px;
+    background-color: aqua;
+}
+.container {
+
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menuList {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+
+}
+
+.menuList a {  
+    text-decoration: none;
+    color: black;
+}
+/* END HEADER */
+
+main{
+    background-color: blanchedalmond;
+    height: 600px;
+}
+
+.mainConteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchGoogle img {
+    /* LOGO GOOGLE */
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+label {
+    display: flex;
+    /* BUTTONS SEARCH */
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.search {
+    /* SEARCH FIELD */
+    height: 60px;
+    width: 700px;
+    border-radius: 30px;
+    font-size: 23px;
+}
+
+.btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    border: 0px;
+    font-size: 20px;
+    color: #6b6868;
+    background-color: rgb(241, 236, 236);
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid #000;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #FFF;
+    
+}
+.listOne{
+    display: flex;
+
+}
+.listTwo{
+    display: flex;
+
+}
