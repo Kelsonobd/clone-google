@@ -1,103 +1,84 @@
 * {
     margin: 0;
-    padding: 10px 5px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-   
-}
-header{
-    height: 200px;
-    background-color: aqua;
-}
-.container {
-
-}
-
-.menu {
-    display: flex;
-    justify-content: flex-end;
-
-}
-
-.menuList {
-    display: flex;
-    list-style-type: none;
-    font-size: 20px;
-
-}
-
-.menuList a {  
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
     text-decoration: none;
-    color: black;
 }
-/* END HEADER */
-
-main{
-    background-color: blanchedalmond;
-    height: 600px;
-}
-
-.mainConteiner {
+section{
+    /* START SECTION HEADER */
+    position: relative;
+    width:100%;
+    min-height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-.searchGoogle img {
-    /* LOGO GOOGLE */
-    display: flex;
     justify-content: center;
-    width: 400px;
 }
-
-label {
+section header{
+    position: absolute;
+    top: 0;
+    width:100%;
+    padding: 20px;
     display: flex;
-    /* BUTTONS SEARCH */
-    gap: 20px;
-    margin-top: 30px;
-
-}
-
-.search {
-    /* SEARCH FIELD */
-    height: 60px;
-    width: 700px;
-    border-radius: 30px;
-    font-size: 23px;
-}
-
-.btn {
-    height: 50px;
-    width: 200px;
-    border-radius: 3px;
-    border: 0px;
-    font-size: 20px;
-    color: #6b6868;
-    background-color: rgb(241, 236, 236);
-    cursor: pointer;
-}
-
-.btn:hover {
-    border: 1px solid #000;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    
-
-}
-.rodape{
-    display: flex;
+    align-items: center;
     justify-content: flex-end;
-    border-top: 1px solid #FFF;
-    
 }
-.listOne{
+section header ul{
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
-.listTwo{
-    display: flex;
+section header ul li a {
+    font-size: 13px;
+    color: #111;
+}
+section header ul li a:hover{
+    text-decoration: underline;
+}
+section header ul li a img{    /* IMG MENU */
+    height: 16px;
+    width: 16px;
+}
+section header ul button{    /* BUTTTONS */
+    padding: 8px;
+    border-radius: 3px;
+    background:#1a73e8;
+    border:0;
+    outline:none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+section header ul button:hover{
+    background: #3284EE;
+}
+/* END SECTION HEADER */
 
+/* START MAIN */
+
+.main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 580px;
+    margin-bottom: 200px;
+}
+.main .searchBox{
+    position:relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.main .searchBox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    outline:none;
+    font-size
 }
